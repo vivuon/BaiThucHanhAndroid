@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/smallSpace">
+
+    <ImageView
+        android:id="@+id/ivImageF"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginRight="@dimen/mediumSpace"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_milk_tea" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvNameF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivImageF"
+        android:text="Milk Tea"
+        android:textColor="@color/black"
+        android:textSize="@dimen/largeFontSize"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvRateF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameF"
+        android:layout_marginTop="@dimen/mediumSpace"
+        android:layout_toRightOf="@id/ivImageF"
+        android:text="Rate:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/mediumFontSize" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:text="59 000"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944862938998",
+    "project_id": "truongvivuon-foodapp-c5cf0",
+    "storage_bucket": "truongvivuon-foodapp-c5cf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944862938998:android:169a474fcc9a7a5598dc57",
+        "android_client_info": {
+          "package_name": "com.example.truongvivuon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944862938998-kebp2cm40nftorpbqrfo9to9qotp2g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgd4wi1mPLtJ69M2fubGckKm8eBpKVkhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944862938998-kebp2cm40nftorpbqrfo9to9qotp2g48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
